@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrasi - Sistem Akademik</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="register-page">
+
+    <div class="container">
+        <div class="form-box">
+            <h2>Form Registrasi Mahasiswa</h2>
+
+            <form action="#" method="post">
+                <div class="input-group">
+                    <label>Nama Lengkap</label>
+                    <input type="text" name="nama" placeholder="Nama lengkap" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Alamat email" required>
+                </div>
+
+                <div class="input-group">
+                    <label>NIM</label>
+                    <input type="text" name="nim" placeholder="Nomor Induk Mahasiswa" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Program Studi</label>
+                    <select name="Program Studi" required>
+                        <option value="">-- Pilih Prodi --</option>
+                        <option value="ti">Teknik Informatika</option>
+                        <option value="si">Sistem Informasi</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="Buat password" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Konfirmasi Password</label>
+                    <input type="password" name="confirm_password" placeholder="Ulangi password" required>
+                </div>
+
+                <button type="submit" class="btn">Daftar</button>
+            </form>
+
+            <p>Sudah punya akun? 
+                <a href="index.html">Login di sini</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
